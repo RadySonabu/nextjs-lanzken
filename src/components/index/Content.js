@@ -51,7 +51,7 @@ function Content() {
                   <div className="flex items-center space-x-6 lg:space-x-8">
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
-                        <Image
+                        <Image width={200} height={200}
                           src="https://media.istockphoto.com/id/1316967319/photo/chicken-inasal-a-variant-of-lechon-manok-on-a-banana-leaf-on-top-of-wooden-platter-it-is.jpg?s=612x612&w=0&k=20&c=a3BxaJuUdEfd4gG2k5_w-iDtuf_pbHVgvma8EkE-nVQ="
                           alt=""
                           className="h-full w-full object-cover object-center"
@@ -74,14 +74,14 @@ function Content() {
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <Image
+                        <Image width={200} height={200}
                           src="https://media.istockphoto.com/id/580114116/photo/grilled-chicken-fillets-in-a-spicy-marinade.jpg?s=612x612&w=0&k=20&c=ZpRLP1xUUtAoiXPSGxPh9HUJ9L5JVh9wIfd-cRYTj1k="
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <Image
+                        <Image width={200} height={200}
                           src="https://media.istockphoto.com/id/700771078/photo/fried-crispy-chicken-nuggets-with-ketchup-on-white-board.jpg?s=612x612&w=0&k=20&c=3VTbi_VYMo6KBKXuMacXgM0Z1r9yinWb97qLeuE5iVw="
                           alt=""
                           className="h-full w-full object-cover object-center"
@@ -97,7 +97,7 @@ function Content() {
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <Image
+                        <Image width={200} height={200}
                           src="https://media.istockphoto.com/id/835903320/photo/baked-chicken-wings-with-sesame-seeds-and-sweet-chili-sauce-on-white-wooden-board.jpg?s=612x612&w=0&k=20&c=SH8ZCkEKuWD_wxulpntIJ0uD4yRnUf9UXovQwSwrmmA="
                           alt=""
                           className="h-full w-full object-cover object-center"

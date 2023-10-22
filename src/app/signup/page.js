@@ -11,7 +11,7 @@ function SignUp() {
     <div class="grid grid-cols-1 lg:grid-cols-2">
         <div class="relative flex items-end px-4 pb-10 pt-60 sm:pb-16 md:justify-center lg:pb-24 bg-gray-50 sm:px-6 lg:px-8">
             <div class="absolute inset-0">
-                <img class="object-cover w-full h-full" src="https://media.istockphoto.com/id/1145824163/vector/neon-gaming-slogan-winner-winner-chicken-dinner.jpg?s=612x612&w=0&k=20&c=u2RczLXRs8VItdGQ7E5jItfSY0B6PC4aNN0IMWcUTwI=" alt="" />
+                <Image width="200" height="200" class="object-cover w-full h-full" src="https://media.istockphoto.com/id/1145824163/vector/neon-gaming-slogan-winner-winner-chicken-dinner.jpg?s=612x612&w=0&k=20&c=u2RczLXRs8VItdGQ7E5jItfSY0B6PC4aNN0IMWcUTwI=" alt="" />
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
 
