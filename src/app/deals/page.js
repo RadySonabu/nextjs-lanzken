@@ -1,5 +1,6 @@
 import Footer from '@/components/index/Footer'
 import MyNavbar from '@/components/index/Navbar'
+import Image from 'next/image'
 import React from 'react'
 
 function Deals() {
