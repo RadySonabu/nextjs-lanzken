@@ -1,6 +1,7 @@
 import Footer from '@/components/index/Footer'
 import MyNavbar from '@/components/index/Navbar'
 import React from 'react'
+import Image from 'next/image';
 
 export default function SignIn() {
   return (
