@@ -24,7 +24,7 @@ export default function MyNavbar() {
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
-                      <img
+                      <Image
                         className="h-8 w-8"
                         src="https://t4.ftcdn.net/jpg/02/58/12/45/240_F_258124515_nTOLZOB7kQIsEAAVR8qA5fvJ7zeD3Smg.jpg"
                         alt="Your Company"
