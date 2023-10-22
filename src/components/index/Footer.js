@@ -8,9 +8,9 @@ function Footer() {
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-y-12 gap-x-8 xl:gap-x-12">
             <div class="col-span-2 md:col-span-4 xl:pr-8">
-                <Image width="200" height="200" class="w-auto h-9" src="https://t4.ftcdn.net/jpg/02/58/12/45/240_F_258124515_nTOLZOB7kQIsEAAVR8qA5fvJ7zeD3Smg.jpg" alt="" />
+                <Image width="100" height="100" class="10-auto h-18" src="https://t4.ftcdn.net/jpg/02/58/12/45/240_F_258124515_nTOLZOB7kQIsEAAVR8qA5fvJ7zeD3Smg.jpg" alt="" />
 
-                <p class="text-base leading-relaxed text-gray-600 mt-7">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <p class="text-base leading-relaxed text-gray-600 mt-7">Pride Chicken!</p>
 
                 <a href="#" title="" class="inline-flex items-center justify-center px-6 py-4 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700 mt-7">
                     <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

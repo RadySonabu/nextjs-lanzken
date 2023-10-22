@@ -20,19 +20,19 @@ export default function MyNavbar() {
         <Disclosure as="nav" className="bg-white" >
           {({ open }) => (
             <>
-              <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
-                      <Image width="200" height="200"
-                        className="h-8 w-8"
+                      <Image width="400" height="400"
+                        className="h-18 w-20"
                         src="https://t4.ftcdn.net/jpg/02/58/12/45/240_F_258124515_nTOLZOB7kQIsEAAVR8qA5fvJ7zeD3Smg.jpg"
                         alt="Your Company"
                       />
                     </div>
 
                     <div className="hidden md:block">
-                      <div className="ml-10 flex items-baseline space-x-4">
+                      <div className="ml-10 flex items-baseline space-x-10">
                         {navigation.map((item) => (
                           <a
                             key={item.name}
