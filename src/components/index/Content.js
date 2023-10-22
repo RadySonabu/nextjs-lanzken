@@ -6,14 +6,39 @@ function Content() {
          <div className="relative overflow-hidden bg-white">
       <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-          <div className="sm:max-w-lg">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Pride Chicken!
-            </h1>
-            <p className="mt-4 text-xl text-gray-500">
-            The delicious fried chicken are here.
-            </p>
-          </div>
+          
+    <section class="py-10 sm:py-16 lg:py-24">
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+                <div>
+                    <h1 class="text-4xl font-bold text-black sm:text-2xl lg:text-4xl">   
+                      Try something different, try our crunchy and delicious
+                        <div class="relative inline-flex">
+                            <span class="absolute inset-x-0 bottom-0 border-b-[30px] border-[#4ADE80]"></span>
+                            <h1 class="relative text-4xl font-bold text-black sm:text-6xl lg:text-7xl">Pride Chicken.</h1>
+                        </div>
+                    </h1>
+
+                    <p class="mt-8 text-base text-black sm:text-xl">Let’s plan friends or family to go out today and have fried chicken on this very nice day.</p>
+
+                    <div class="mt-10 sm:flex sm:items-center sm:space-x-8">
+                        <a href="/menu" title="" class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-orange-500 hover:bg-orange-600 focus:bg-orange-600" role="button"> Order Now </a>
+
+                        <a href="#" title="" class="inline-flex items-center mt-6 text-base font-semibold transition-all duration-200 sm:mt-0 hover:opacity-80">
+                            <svg class="w-10 h-10 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path fill="#F97316" stroke="#F97316" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Watch video
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
           <div>
             <div className="mt-10">
               {/* Decorative image grid */}
@@ -33,7 +58,7 @@ function Content() {
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://media.istockphoto.com/id/1056651714/photo/fried-chicken-wings-and-chicken-legs.jpg?s=612x612&w=0&k=20&c=7XWanAjRFSePK0VXHG5WwNg0SfUEWJTddgL3XKnV1KM="
+                          src="https://t4.ftcdn.net/jpg/02/38/86/19/240_F_238861980_voWTzuZYF14kMi2ef2sZADP9Rs4V7Cpt.jpg"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
@@ -42,7 +67,7 @@ function Content() {
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://media.istockphoto.com/id/1142603303/photo/grilled-meat-and-vegetables-on-skewers.jpg?s=612x612&w=0&k=20&c=IsvHBVukF10ZLODFrM0OiqkyDgd35Dd1L6oq3fwOE4I="
+                          src="https://t3.ftcdn.net/jpg/05/30/82/52/240_F_530825230_w09duMKsEfRl9hoCzslVkyOAyOVEbkbV.jpg"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
@@ -65,7 +90,7 @@ function Content() {
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://media.istockphoto.com/id/1202811884/photo/vegan-meatless-plant-based-protein-chicken-strip-burger-on-a-whole-wheat-bun-with-lettuce.jpg?s=612x612&w=0&k=20&c=lKhSG7nAzsSOTTQLTBg2tTtuJh0RGGt6yy5P9LANJag="
+                          src="https://t4.ftcdn.net/jpg/01/36/43/85/240_F_136438519_QBeOyNZ3oHM1nxGHUyPPCWaCkLmpPBzg.jpg"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
@@ -81,13 +106,6 @@ function Content() {
                   </div>
                 </div>
               </div>
-
-              <a
-                href="#"
-                className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
-              >
-                Order Now
-              </a>
             </div>
           </div>
         </div>
