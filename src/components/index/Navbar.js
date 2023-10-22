@@ -24,7 +24,7 @@ export default function MyNavbar() {
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
-                      <img
+                      <Image
                         className="h-8 w-8"
                         src="https://cdn.vectorstock.com/i/preview-1x/51/45/fried-chicken-colorful-vintage-label-vector-46475145.webp"
                         alt="Your Company"
